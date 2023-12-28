@@ -241,11 +241,12 @@
 
 /* Integrasi */
 
-/* .integrasi{
-  margin: 50px;
-} */
+.integrasi{
+  background-image: linear-gradient(to right, #5FBDFF, #7B66FF);
+}
 
 .integrasi .integrasi-title{
+  color: #fff;
   text-align: center;
   font-weight: 600;
   padding-bottom: 20px;
@@ -263,6 +264,7 @@
   /* transition: 0.3s; */
   transition: all .3s;
   border-radius: 5px;
+  color: #fff;
 }
 
 .integrasi .integrasi-box .icon{
@@ -700,7 +702,8 @@
 /* Galeri */
 
 .portfolio{
-    background-image: linear-gradient(to right, #5FBDFF, #7B66FF);
+    /* background-image: linear-gradient(to right, #5FBDFF, #7B66FF); */
+    background-color: #fff;
 }
 
 .portfolio #portfolio-flters {
@@ -866,7 +869,6 @@
 }
 
 .portfolio .portfolio-title{
-  color: #fff;
   text-align: center;
   font-weight: 600;
   padding-bottom: 20px;
@@ -919,6 +921,11 @@
 
 .cusfoo{
   background-color: #185483;
+}
+
+.explain-footer{
+  font-size: 15px;
+  margin-left: 5px;
 }
 
 .foonote{
