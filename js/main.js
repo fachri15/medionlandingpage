@@ -9,10 +9,11 @@ $(function () {
 			$nav.toggleClass("scrolled", scrolled);
 
 			if (scrolled) {
-			$nav.css("color", "#000");
-			} else {
 			$nav.css("color", "#fff");
 			}
+      // else {
+			// $nav.css("color", "#fff");
+			// }
 
 			// Ganti logo
 			if (scrolled) {
@@ -152,7 +153,7 @@ $(function () {
    */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
-    let position = window.scrollY + 1 
+    let position = window.scrollY + 200
     navbarlinks.forEach(navbarlink => {
       if (!navbarlink.hash) return
       let section = select(navbarlink.hash)

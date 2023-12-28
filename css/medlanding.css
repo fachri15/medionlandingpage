@@ -25,9 +25,29 @@
     font-size: 25px;
 }
 
-.nav-link{
-    margin-right: 30px;
-    color: #fff;
+.nav-item .nav-link{
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover{
+  opacity: 1 !important;
+}
+
+.nav-link::before{
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #ffffff !important;
 }
 
 .navbar .tombol{
